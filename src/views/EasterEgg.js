@@ -3,12 +3,12 @@ import { Link } from 'react-router-dom';
 
 const EasterEgg = () => {
     return (
-        <div class="easter-egg-txt">
+        <div className="easter-egg-txt">
             You found the easter egg!!!
-            <div class="easter-egg-txt-2">
+            <div className="easter-egg-txt-2">
                 You have wasted your time.
             </div>
-            <div class="nav">
+            <div className="nav">
                 <Link to="/portfolio">
                     Return
                 </Link>
