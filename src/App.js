@@ -6,6 +6,9 @@ import ReactGA from 'react-ga';
 
 import './App.css';
 import EasterEgg from './views/EasterEgg';
+import Support from './views/Support';
+import AboutUs from './views/AboutUs';
+import Contact from './views/Contact';
 
 // Layouts
 import LayoutDefault from './layouts/LayoutDefault';
@@ -41,6 +44,10 @@ const App = () => {
         <Switch>
           <AppRoute exact path="/portfolio" component={Home} layout={LayoutDefault} />
           <AppRoute exact path="/portfolio/easter-egg" component={EasterEgg} />
+          <AppRoute exact path="/portfolio/support" component={Support} />
+          <AppRoute exact path="/portfolio/contact" component={Contact} />
+          <AppRoute exact path="/portfolio/about-us" component={AboutUs} />
+
         </Switch>
       )} />
   );
